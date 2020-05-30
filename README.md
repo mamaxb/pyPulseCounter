@@ -1,8 +1,11 @@
 # pyPulseCounter
 ---
 Simple command-line tool for counting rising edges in a time-voltage excel-spreadsheet.
-Output is:
-|Time|Voltage|delta time|velocity|
+Output is (default to stdout):
++ Time (timestamp of each rising edge)
++ Voltage (voltage of each timestamp)
++ Time delta (difference between each timestamp)
++ Velocity (calculated velocity)
 
 Input arguments:
 + input_file (required): Path to excel-spreadsheet
